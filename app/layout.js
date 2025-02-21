@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Gabby Epstein OnlyFans - you won\'t believe it ❤️',
-  description: 'Get 30 Days FREE Access to Gabby Epstein\'s Premium OnlyFans! Enjoy exclusive photos, private messages & daily hot content. Limited time offer - Join Now! 🔥',
+  description: 'Get FREE Access to Gabby Epstein\'s Premium OnlyFans! Exclusive content, daily updates & VIP experience. Limited time offer! 🔥',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
