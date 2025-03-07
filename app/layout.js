@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+import MonetizationProvider from './components/monetization/MonetizationProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -98,6 +99,7 @@ export default function RootLayout({ children }) {
           </main>
           <Footer />
         </div>
+                <MonetizationProvider />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
@@ -106,3 +108,4 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
