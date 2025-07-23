@@ -20,43 +20,50 @@ const Hero = () => {
               <span>⏰</span>
             </div>
 
+            {/* Personal Introduction */}
+            <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-2xl mb-4">
+              <span className="font-semibold text-blue-600">Hey, I'm Diana❤️</span> - <span className="italic">Your favorite blonde👱‍♀️</span>, welcome to my private world! 💕 I hope that you will like it. I'm new to the platform but I'm willing to discover my <span className="text-pink-500 font-medium">naughty side</span>...
+            </p>
+
             {/* Main Headline */}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                Blonde OnlyFans
+                I'm the best blonde
               </span>
               <br />
               <span className="text-gray-800">
-                Premium Content
+                on OnlyFans🤭​
               </span>
             </h1>
 
             {/* Subtitle */}
-            <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-2xl">
-              Exclusive intimate content, personal interactions, and behind-the-scenes moments. 
-              Join my private world today! 💕
+            <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-2xl mt-4">
+            Let’s see where this goes and how the vibe feels. If you’re my type, I’m accepting boyfriend applications as long as you are over 5.6😂​ Dont be shy im nice and friendly lol 💕
             </p>
 
-            {/* Trust indicators */}
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 text-sm text-gray-600">
-              <div className="flex items-center gap-2">
-                <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></span>
-                <span className="font-semibold">Online Now</span>
+            {/* Online Now indicator */}
+            <div className="flex items-center justify-center lg:justify-start">
+              <div className="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-full border border-green-300 shadow-sm">
+                <span className="w-4 h-4 bg-green-500 rounded-full animate-pulse"></span>
+                <span className="font-bold text-green-700 text-base">ONLINE NOW</span>
               </div>
-              <div className="flex items-center gap-2">
-                <span>⭐</span>
-                <span>4.9/5 Rating</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span>👥</span>
-                <span>250K+ Followers</span>
+            </div>
+
+            {/* 18+ Warning - Moved above CTA for better visibility */}
+            <div className="bg-yellow-50 border-2 border-yellow-500 p-4 rounded-lg shadow-md cursor-pointer hover:bg-yellow-100 transition-all duration-300">
+              <div className="flex items-center">
+                <span className="text-3xl mr-3 animate-pulse">🔞</span>
+                <div>
+                  <p className="text-base font-bold text-yellow-800">18+ ADULTS ONLY CONTENT</p>
+                  <p className="text-sm text-yellow-700 font-medium">By clicking the button below, you confirm you are 18 years or older</p>
+                </div>
               </div>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <AffiliateButton 
-                text="🔓 GET 70% OFF NOW"
+                text="JOIN MY ONLYFANS 🔓"
                 variant="primary"
                 size="xlarge"
                 className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold px-12 py-4 text-xl shadow-2xl transform hover:scale-105 transition-all duration-300"
@@ -64,18 +71,7 @@ const Hero = () => {
               
               <div className="text-center sm:text-left">
                 <div className="text-sm text-gray-500 mb-1">Limited Time Offer</div>
-                <div className="text-lg font-bold text-red-600">Expires in 24h ⏰</div>
-              </div>
-            </div>
-
-            {/* 18+ Warning */}
-            <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
-              <div className="flex items-center">
-                <span className="text-2xl mr-3">🔞</span>
-                <div>
-                  <p className="text-sm font-semibold text-yellow-800">18+ Adults Only Content</p>
-                  <p className="text-xs text-yellow-700">By proceeding, you confirm you are 18 years or older</p>
-                </div>
+                <div className="text-lg font-bold text-red-600">70% OFF - Expires in 24h ⏰</div>
               </div>
             </div>
           </div>
