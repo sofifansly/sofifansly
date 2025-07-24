@@ -7,7 +7,7 @@ import InstagramBypass from './components/InstagramBypass'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Best Blonde OnlyFans Creator | Premium Content & Exclusive Access',
+  title: 'The Best Blonde OnlyFans Creator | Premium Content❤️',
   description: 'Join Diana, the best blonde OnlyFans creator offering premium content, personal interactions & exclusive access. Get 70% OFF today for a limited time!',
   manifest: '/manifest.json',
   metadataBase: new URL('https://www.onlyfans-blonde.com'),

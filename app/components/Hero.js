@@ -26,7 +26,7 @@ const Hero = () => {
             </p>
 
             {/* Main Headline */}
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight" style={{fontSize: 'var(--h1-font-size, 2.25rem)'}}>
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
                 I'm the best blonde
               </span>
@@ -89,7 +89,7 @@ const Hero = () => {
                   playsInline
                   poster="/images/1.jpeg"
                 >
-                  <source src="/images/1.mp4" type="video/mp4" />
+                  <source src="/images/blonde-onlyfans.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 
@@ -108,8 +108,8 @@ const Hero = () => {
               
               {/* Media caption */}
               <div className="p-4 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-center">
-                <p className="font-semibold">Preview of Exclusive Content</p>
-                <p className="text-sm text-blue-100">Unlock 500+ Photos & Videos</p>
+                <p className="font-semibold">Lets talk</p>
+                <p className="text-sm text-blue-100">im nice i swear!</p>
               </div>
             </div>
 
@@ -128,13 +128,9 @@ const Hero = () => {
         <div className="mt-16 text-center">
           <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-100 max-w-2xl mx-auto">
             <p className="text-gray-600 italic">
-              "Thanks to my bestie for helping me set up this website! 💕 
-              She's amazing at this tech stuff and wanted to help me connect with you all better!"
+              "Thanks to my bestie Inna for helping me set up this website! 💕 
+              She's amazing at this tech stuff and wanted to help me"
             </p>
-            <div className="mt-3 flex items-center justify-center gap-2 text-sm text-gray-500">
-              <span>🌳</span>
-              <span>Powered by Linktree</span>
-            </div>
           </div>
         </div>
       </div>

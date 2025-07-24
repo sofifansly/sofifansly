@@ -27,7 +27,7 @@ const Navbar = () => {
             href="/"
             className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent hover:from-blue-700 hover:to-blue-800 transition-all duration-300"
           >
-            💕 Blonde OnlyFans
+            💕 Diana Private page
           </a>
 
           <div className="flex items-center gap-4">
@@ -35,8 +35,8 @@ const Navbar = () => {
             <div className="hidden md:flex items-center space-x-6">
               <div className="flex items-center space-x-4 text-sm text-gray-600">
                 <div className="flex items-center gap-1">
-                  <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                  <span>Online Now</span>
+                  <span>🌳</span>
+                  <span>powered by Linktree</span>
                 </div>
                 <div className="text-blue-600 font-semibold">🔥 70% OFF</div>
               </div>

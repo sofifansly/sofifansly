@@ -55,7 +55,7 @@ export async function POST(request) {
     
     // Build email content
     const htmlContent = `
-      <h1>New Contact Message from ${siteUrl}</h1>
+      <h1 style="font-size: 24px;">New Contact Message from ${siteUrl}</h1>
       <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px;">
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>

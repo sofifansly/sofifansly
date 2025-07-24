@@ -9,6 +9,15 @@
   h1 {
     @apply text-4xl md:text-6xl font-bold;
   }
+  /* Explicit font-size for h1 in semantic elements to prevent browser warnings */
+  section h1, article h1, nav h1, aside h1 {
+    font-size: 2.25rem; /* text-4xl */
+  }
+  @media (min-width: 768px) {
+    section h1, article h1, nav h1, aside h1 {
+      font-size: 3.75rem; /* text-6xl */
+    }
+  }
   h2 {
     @apply text-3xl font-bold text-gray-800;
   }

@@ -11,9 +11,9 @@ const Footer = () => {
       {/* Main CTA Section */}
       <div className="bg-gradient-to-r from-blue-500 to-blue-600 py-12">
         <div className="container mx-auto px-4 text-center">
-          <h3 className="text-3xl font-bold text-white mb-4">
+          <p className="text-3xl font-bold text-white mb-4">
             Ready to Join My Exclusive World? 💕
-          </h3>
+          </p>
           <p className="text-blue-100 text-lg mb-6 max-w-2xl mx-auto">
             Don't miss out on premium content and intimate interactions. 
             Limited time 70% discount available now!
@@ -44,29 +44,19 @@ const Footer = () => {
             {/* Brand */}
             <div className="col-span-1 text-center md:text-left">
               <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent hover:from-blue-700 hover:to-blue-800 transition-all duration-300">
-                💕 Blonde OnlyFans
+                💕 Diana Private page
               </Link>
               <p className="mt-4 text-gray-600 text-sm leading-relaxed">
                 Premium exclusive content from your favorite blonde creator. 
                 Authentic interactions and behind-the-scenes moments.
               </p>
               
-              {/* Stats */}
-              <div className="flex items-center justify-center md:justify-start gap-4 mt-4 text-xs text-gray-500">
-                <div className="flex items-center gap-1">
-                  <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                  <span>250K+ Followers</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <span className="w-2 h-2 bg-yellow-500 rounded-full"></span>
-                  <span>4.9★ Rating</span>
-                </div>
-              </div>
+            
             </div>
 
             {/* Quick Links */}
             <div className="col-span-1 text-center">
-              <h4 className="text-blue-700 font-semibold mb-4">Quick Access</h4>
+              <p className="text-blue-700 font-semibold mb-4">Quick Access</p>
               <div className="space-y-3">
                 <AffiliateButton 
                   text="View Content"
@@ -82,7 +72,7 @@ const Footer = () => {
 
             {/* Legal & Support */}
             <div className="col-span-1 text-center md:text-right">
-              <h4 className="text-blue-700 font-semibold mb-4">Support & Legal</h4>
+              <p className="text-blue-700 font-semibold mb-4">Support & Legal</p>
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link href="/contact" className="text-gray-600 hover:text-blue-600 transition-colors">
