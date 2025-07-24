@@ -87,7 +87,7 @@ const Hero = () => {
                   muted 
                   loop 
                   playsInline
-                  poster="/images/1.jpeg"
+                  poster="/images/blonde-onlyfans.webp"
                 >
                   <source src="/images/blonde-onlyfans.mp4" type="video/mp4" />
                   Your browser does not support the video tag.

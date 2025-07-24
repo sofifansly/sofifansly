@@ -75,11 +75,6 @@ const Footer = () => {
               <p className="text-blue-700 font-semibold mb-4">Support & Legal</p>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="/contact" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    Contact Support
-                  </Link>
-                </li>
-                <li>
                   <Link href="/privacy-policy" className="text-gray-600 hover:text-blue-600 transition-colors">
                     Privacy Policy
                   </Link>
