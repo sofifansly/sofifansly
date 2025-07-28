@@ -7,14 +7,14 @@ import InstagramBypass from './components/InstagramBypass'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'The Best Blonde OnlyFans Creator | Premium Content❤️',
-  description: 'Join Diana, the best blonde OnlyFans creator offering premium content, personal interactions & exclusive access. Get 70% OFF today for a limited time!',
+  title: 'Sofi Best Fansly Creator | Exclusive Content & Special Moments 💕',
+  description: 'Join Sofi, the best Fansly creator sharing cute moments, exclusive content & personal interactions. Experience my special corner where I open up just for you!',
   manifest: '/manifest.json',
-  metadataBase: new URL('https://www.onlyfans-blonde.com'),
+  metadataBase: new URL('https://www.sofi-fans.com'),
   alternates: {
     canonical: '/',
   },
-  keywords: 'blonde onlyfans, best blonde onlyfans, blonde onlyfans creator, premium blonde content, exclusive onlyfans access, diana onlyfans',
+  keywords: 'sofi fansly, best fansly, sofi best fansly, fansly creator, premium fansly content, exclusive fansly access, cute fansly creator',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default'
@@ -28,18 +28,18 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'Best Blonde OnlyFans Creator | Premium Content & Exclusive Access',
-    description: 'Join Diana, the best blonde OnlyFans creator offering premium content, personal interactions & exclusive access. Get 70% OFF today!',
+    title: 'Sofi Best Fansly Creator | Cute Moments & Exclusive Content',
+    description: 'Join Sofi, the cutest Fansly creator sharing special moments and exclusive content. Experience my cute corner where I open up just for you!',
     type: 'website',
     url: '/',
-    siteName: 'Diana - Blonde OnlyFans',
+    siteName: 'Sofi - Best Fansly Creator',
     locale: 'en_US',
     images: [
       {
-        url: '/images/blonde-onlyfans.webp',
+        url: '/images/sofiafansly.webp',
         width: 1200,
         height: 630,
-        alt: 'Diana - Best Blonde OnlyFans Creator'
+        alt: 'Sofi - Best Fansly Creator'
       }
     ],
   }

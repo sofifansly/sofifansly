@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    @apply bg-white text-gray-800 antialiased;
+  html, body {
+    @apply bg-pink-50 text-gray-800 antialiased;
   }
   h1 {
     @apply text-4xl md:text-6xl font-bold;
