@@ -4,133 +4,224 @@ import AffiliateButton from './AffiliateButton';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-100 pt-20 pb-12 px-4 relative overflow-hidden">
-      {/* Background decorations */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.1),transparent_50%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(147,197,253,0.15),transparent_50%)]" />
+    <section className="min-h-screen bg-gradient-to-b from-pink-100 to-pink-200 pt-20 pb-12 px-4 relative overflow-hidden">
+      {/* Cute background elements */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,182,193,0.4),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(255,105,180,0.2),transparent_70%)]" />
+      <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-pink-300 via-purple-300 to-pink-300"></div>
       
-      <div className="container mx-auto max-w-7xl relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      {/* Floating hearts and bows */}
+      <div className="absolute top-20 left-10 text-4xl animate-bounce">❤️</div>
+      <div className="absolute top-40 right-20 text-5xl animate-pulse">🎀</div>
+      <div className="absolute bottom-40 left-20 text-4xl animate-bounce" style={{animationDelay: '1s'}}>💕</div>
+      <div className="absolute bottom-20 right-10 text-5xl animate-pulse" style={{animationDelay: '1.5s'}}>🎀</div>
+      <div className="absolute top-1/3 left-1/3 text-6xl animate-pulse opacity-20">💕</div>
+      
+      <div className="container mx-auto max-w-6xl relative z-10">
+        <div className="flex flex-col lg:flex-row items-center gap-16">
+          
           {/* Left Column - Content */}
-          <div className="text-center lg:text-left space-y-8">
-            {/* Flash Sale Badge */}
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-red-500 to-pink-500 text-white px-6 py-3 rounded-full text-sm font-bold shadow-lg animate-pulse">
-              <span>🔥</span>
-              <span>70% OFF - ONLY 3 SPOTS LEFT!</span>
-              <span>⏰</span>
+          <div className="text-center lg:text-left space-y-8 lg:w-1/2">
+            {/* Cute Badge */}
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-400 to-purple-400 text-white px-6 py-3 rounded-full text-sm font-bold shadow-lg">
+              <span>💕</span>
+              <span>SOFI'S SPECIAL PLACE</span>
             </div>
 
-            {/* Personal Introduction */}
-            <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-2xl mb-4">
-              <span className="font-semibold text-blue-600">Hey, I'm Diana❤️</span> - <span className="italic">Your favorite blonde👱‍♀️</span>, welcome to my private world! 💕 I hope that you will like it. I'm new to the platform but I'm willing to discover my <span className="text-pink-500 font-medium">naughty side</span>...
-            </p>
-
-            {/* Main Headline */}
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight" style={{fontSize: 'var(--h1-font-size, 2.25rem)'}}>
-              <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                I'm the best blonde
-              </span>
+            {/* Fun Headline */}
+            <h1 className="text-3xl md:text-5xl lg:text-6xl leading-tight text-pink-600" style={{fontFamily: "'Comic Sans MS', cursive, sans-serif"}}>
+              <span>Hey there!</span> <span className="font-bold">It's Sofi</span>
               <br />
-              <span className="text-gray-800">
-                on OnlyFans🤭​
+              <span className="text-purple-500">
+                Let's have fun! 😘
               </span>
             </h1>
-
-            {/* Subtitle */}
-            <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-2xl mt-4">
-            Let’s see where this goes and how the vibe feels. If you’re my type, I’m accepting boyfriend applications as long as you are over 5.6😂​ Dont be shy im nice and friendly lol 💕
+            
+            {/* Personal Introduction */}
+            <p className="text-xl md:text-2xl text-pink-800 leading-relaxed max-w-xl">
+              <span className="font-semibold text-purple-500">Welcome to my cute corner</span> — I'm all about sharing <span className="font-bold">special moments</span> and creating <span className="font-bold">amazing memories</span> with my fans! 🎀
             </p>
 
-            {/* Online Now indicator */}
-            <div className="flex items-center justify-center lg:justify-start">
-              <div className="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-full border border-green-300 shadow-sm">
-                <span className="w-4 h-4 bg-green-500 rounded-full animate-pulse"></span>
-                <span className="font-bold text-green-700 text-base">ONLINE NOW</span>
+            {/* 18+ Warning - Cute style */}
+            <div className="flex items-center justify-center lg:justify-start mb-2">
+              <div className="flex items-center gap-2 bg-pink-100 px-4 py-2 rounded-full border-2 border-pink-400 shadow-md">
+                <span className="text-pink-600 text-sm font-medium">18+ CONTENT ONLY 🔒</span>
               </div>
             </div>
-
-            {/* 18+ Warning - Moved above CTA for better visibility */}
-            <div className="bg-yellow-50 border-2 border-yellow-500 p-4 rounded-lg shadow-md cursor-pointer hover:bg-yellow-100 transition-all duration-300">
-              <div className="flex items-center">
-                <span className="text-3xl mr-3 animate-pulse">🔞</span>
-                <div>
-                  <p className="text-base font-bold text-yellow-800">18+ ADULTS ONLY CONTENT</p>
-                  <p className="text-sm text-yellow-700 font-medium">By clicking the button below, you confirm you are 18 years or older</p>
+            
+            {/* Mobile Only - Video */}
+            <div className="lg:hidden w-full my-8">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-pink-300 border-dashed">
+                {/* Cute frame with hearts */}
+                <div className="absolute -top-2 -left-2 text-3xl rotate-[-15deg] z-30">🎀</div>
+                <div className="absolute -top-2 -right-2 text-3xl rotate-[15deg] z-30">💕</div>
+                <div className="absolute -bottom-2 -left-2 text-3xl rotate-[15deg] z-30">💕</div>
+                <div className="absolute -bottom-2 -right-2 text-3xl rotate-[-15deg] z-30">🎀</div>
+                
+                {/* Video container with fixed aspect ratio - mobile friendly */}
+                <div className="w-full" style={{maxHeight: '80vh'}}>
+                  <video
+                    className="w-full h-auto max-h-full object-cover z-10 block"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    controls={false}
+                    poster="/images/sofiafansly.webp"
+                    preload="auto"
+                    style={{display: 'block', margin: '0 auto'}}
+                  >
+                    <source src="/images/fansly.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  
+                  {/* Soft gradient overlay */}
+                  <div className="relative w-full h-12 -mt-12 bg-gradient-to-t from-pink-300/60 to-transparent z-20"></div>
+                </div>
+                
+                {/* Cute badge */}
+                <div className="absolute top-4 right-4 bg-gradient-to-r from-pink-400 to-purple-400 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg border-2 border-white transform rotate-3 z-30">
+                  <span className="mr-1">✨</span>SO CUTE!
+                </div>
+                
+                {/* Verified creator - cute style with green checkmark */}
+                <div className="absolute bottom-6 left-0 right-0 flex justify-center z-30">
+                  <div className="bg-white/80 backdrop-blur-sm text-pink-600 text-sm px-6 py-2 rounded-full flex items-center gap-2 border-2 border-pink-300 shadow-lg">
+                    <div className="flex items-center justify-center w-6 h-6 bg-gradient-to-r from-green-400 to-green-500 rounded-full shadow-md">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-white" viewBox="0 0 20 20" fill="currentColor">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <span className="font-medium">Verified Creator</span>
+                  </div>
+                </div>
+                
+                {/* Cute floating badge */}
+                <div className="absolute -bottom-4 -right-4 bg-white border-2 border-pink-400 text-pink-600 px-4 py-2 rounded-full text-xs font-medium shadow-lg z-30">
+                  😘 FOLLOW ME
                 </div>
               </div>
             </div>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            {/* CTA Button */}
+            <div className="mt-8 relative">
               <AffiliateButton 
-                text="JOIN MY ONLYFANS 🔓"
+                text="Join Me Now! 💕"
                 variant="primary"
                 size="xlarge"
-                className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold px-12 py-4 text-xl shadow-2xl transform hover:scale-105 transition-all duration-300"
+                className="bg-gradient-to-r from-pink-400 to-purple-400 hover:from-pink-500 hover:to-purple-500 text-white font-bold px-10 py-4 text-lg rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 border-2 border-white"
               />
-              
-              <div className="text-center sm:text-left">
-                <div className="text-sm text-gray-500 mb-1">Limited Time Offer</div>
-                <div className="text-lg font-bold text-red-600">70% OFF - Expires in 24h ⏰</div>
+              <div className="absolute -top-3 -right-3 flex items-center gap-1 bg-white px-3 py-1 rounded-full shadow-md border border-pink-200">
+                <span className="relative flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                </span>
+                <span className="font-medium text-green-600 text-sm">Online Now</span>
+              </div>
+            </div>
+            
+            {/* Features List */}
+            <div className="mt-8 space-y-4">
+              <div className="flex items-center gap-3">
+                <div className="text-xl">🎀</div>
+                <p className="text-pink-800 text-lg">Super cute photos & fun videos just for you!</p>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="text-xl">💕</div>
+                <p className="text-pink-800 text-lg">Personal chats & custom content you'll love</p>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="text-xl">😘</div>
+                <p className="text-pink-800 text-lg">Peek into my daily life & special moments</p>
               </div>
             </div>
           </div>
 
-          {/* Right Column - Media */}
-          <div className="relative">
-            <div className="relative bg-white rounded-3xl shadow-2xl border-4 border-blue-100 overflow-hidden transform hover:scale-105 transition-all duration-500">
-              {/* Video */}
-              <div className="aspect-[9/16] relative">
-                <video 
-                  className="w-full h-full object-cover"
-                  autoPlay 
-                  muted 
-                  loop 
+          {/* Right Column - Video (Desktop only) */}
+          <div className="relative lg:w-1/2 hidden lg:block">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-pink-300 border-dashed">
+              {/* Cute frame with hearts */}
+              <div className="absolute -top-2 -left-2 text-3xl rotate-[-15deg] z-30">🎀</div>
+              <div className="absolute -top-2 -right-2 text-3xl rotate-[15deg] z-30">💕</div>
+              <div className="absolute -bottom-2 -left-2 text-3xl rotate-[15deg] z-30">💕</div>
+              <div className="absolute -bottom-2 -right-2 text-3xl rotate-[-15deg] z-30">🎀</div>
+              
+              {/* Video container with fixed aspect ratio - mobile friendly */}
+              <div className="w-full" style={{maxHeight: '80vh'}}>
+                <video
+                  className="w-full h-auto max-h-full object-cover z-10 block"
+                  autoPlay
+                  loop
+                  muted
                   playsInline
-                  poster="/images/blonde-onlyfans.webp"
+                  controls={false}
+                  poster="/images/sofiafansly.webp"
+                  preload="auto"
+                  style={{display: 'block', margin: '0 auto'}}
                 >
-                  <source src="/images/blonde-onlyfans.mp4" type="video/mp4" />
+                  <source src="/images/fansly.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 
-                {/* Video overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
-                
-                {/* Play button overlay */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="bg-white/20 backdrop-blur-sm rounded-full p-6 group-hover:bg-white/30 transition-all duration-300">
-                    <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
+                {/* Soft gradient overlay */}
+                <div className="relative w-full h-12 -mt-12 bg-gradient-to-t from-pink-300/60 to-transparent z-20"></div>
+              </div>
+              
+              {/* Cute badge */}
+              <div className="absolute top-4 right-4 bg-gradient-to-r from-pink-400 to-purple-400 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg border-2 border-white transform rotate-3 z-30">
+                <span className="mr-1">✨</span>SO CUTE!
+              </div>
+              
+              {/* Verified creator - cute style with green checkmark */}
+              <div className="absolute bottom-6 left-0 right-0 flex justify-center z-30">
+                <div className="bg-white/80 backdrop-blur-sm text-pink-600 text-sm px-6 py-2 rounded-full flex items-center gap-2 border-2 border-pink-300 shadow-lg">
+                  <div className="flex items-center justify-center w-6 h-6 bg-gradient-to-r from-green-400 to-green-500 rounded-full shadow-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-white" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
+                  <span className="font-medium">Verified Creator</span>
                 </div>
               </div>
               
-              {/* Media caption */}
-              <div className="p-4 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-center">
-                <p className="font-semibold">Lets talk</p>
-                <p className="text-sm text-blue-100">im nice i swear!</p>
+              {/* Cute floating badge */}
+              <div className="absolute -bottom-4 -right-4 bg-white border-2 border-pink-400 text-pink-600 px-4 py-2 rounded-full text-xs font-medium shadow-lg z-30">
+                😘 FOLLOW ME
               </div>
-            </div>
-
-            {/* Floating elements */}
-            <div className="absolute -top-4 -right-4 bg-gradient-to-r from-pink-500 to-red-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg animate-bounce">
-              🔥 HOT
-            </div>
-            
-            <div className="absolute -bottom-4 -left-4 bg-gradient-to-r from-green-500 to-blue-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
-              ✨ NEW
             </div>
           </div>
         </div>
 
-        {/* Trust message */}
-        <div className="mt-16 text-center">
-          <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-100 max-w-2xl mx-auto">
-            <p className="text-gray-600 italic">
-              "Thanks to my bestie Inna for helping me set up this website! 💕 
-              She's amazing at this tech stuff and wanted to help me"
-            </p>
+        {/* Features Section - Cute Style */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 border-4 border-pink-300 border-dashed hover:border-purple-400 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-pink-200">
+            <div className="flex items-center justify-center mb-4">
+              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-pink-200 to-pink-100 flex items-center justify-center border-4 border-pink-300">
+                <span className="text-4xl">💕</span>
+              </div>
+            </div>
+            <p className="font-bold text-pink-600 text-center mb-3 text-lg">Cute Content</p>
+            <p className="text-pink-800 text-center">Adorable photos and fun videos that will make your day brighter!</p>
+          </div>
+
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 border-4 border-pink-300 border-dashed hover:border-purple-400 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-pink-200">
+            <div className="flex items-center justify-center mb-4">
+              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-pink-200 to-pink-100 flex items-center justify-center border-4 border-pink-300">
+                <span className="text-4xl">🎀</span>
+              </div>
+            </div>
+            <p className="font-bold text-pink-600 text-center mb-3 text-lg">Special Surprises</p>
+            <p className="text-pink-800 text-center">Exclusive treats and surprises just for my special fans!</p>
+          </div>
+
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 border-4 border-pink-300 border-dashed hover:border-purple-400 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-pink-200">
+            <div className="flex items-center justify-center mb-4">
+              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-pink-200 to-pink-100 flex items-center justify-center border-4 border-pink-300">
+                <span className="text-4xl">😘</span>
+              </div>
+            </div>
+            <p className="font-bold text-pink-600 text-center mb-3 text-lg">BFF Chats</p>
+            <p className="text-pink-800 text-center">Let's chat like besties and get to know each other better!</p>
           </div>
         </div>
       </div>

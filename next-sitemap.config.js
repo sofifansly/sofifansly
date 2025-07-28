@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: 'https://www.onlyfans-blonde.com',
+  siteUrl: 'https://www.sofi-fans.com',
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [
@@ -10,7 +10,7 @@ const config = {
       },
     ],
     additionalSitemaps: [
-      'https://www.onlyfans-blonde.com/sitemap.xml',
+      'https://www.sofi-fans.com/sitemap.xml',
     ],
   },
   changefreq: 'daily',

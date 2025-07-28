@@ -36,7 +36,7 @@ export const metadata = {
     locale: 'en_US',
     images: [
       {
-        url: '/images/1.jpeg',
+        url: '/images/blonde-onlyfans.webp',
         width: 1200,
         height: 630,
         alt: 'Diana - Best Blonde OnlyFans Creator'
