@@ -39,7 +39,7 @@ const Hero = () => {
             
             {/* Personal Introduction */}
             <p className="text-xl md:text-2xl text-pink-800 leading-relaxed max-w-xl">
-              <span className="font-semibold text-purple-500">Welcome to my cute corner</span> — I'm all about sharing <span className="font-bold">special moments</span> and creating <span className="font-bold">amazing memories</span> with my fans! 🎀
+              <span className="font-semibold text-purple-500">Welcome to my cute corner</span> — This is where I open up and <span className="font-bold">let you see the side</span> no one else gets to 💗 <span className="font-bold">but keep it</span> secret 🎀
             </p>
 
             {/* 18+ Warning - Cute style */}
