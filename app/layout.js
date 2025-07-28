@@ -48,7 +48,7 @@ export const metadata = {
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#3b82f6'
+  themeColor: '#ec4899' // Couleur rose pour correspondre au thème Fansly
 }
 
 const breadcrumbJsonLd = {
@@ -58,8 +58,8 @@ const breadcrumbJsonLd = {
     {
       '@type': 'ListItem',
       position: 1,
-      name: 'Blonde OnlyFans',
-      item: 'https://www.onlyfans-blonde.com',
+      name: 'Sofi Fansly',
+      item: 'https://www.sofi-fans.com',
     },
   ],
 }
@@ -67,24 +67,24 @@ const breadcrumbJsonLd = {
 const personJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
-  name: 'Diana',
-  description: 'Best blonde OnlyFans creator offering premium content and exclusive access',
-  url: 'https://www.onlyfans-blonde.com',
-  image: 'https://www.onlyfans-blonde.com/images/1.jpeg',
-  sameAs: ['https://onlyfans.com']
+  name: 'Sofi',
+  description: 'Best Fansly creator sharing cute moments and exclusive content in her special corner',
+  url: 'https://www.sofi-fans.com',
+  image: 'https://www.sofi-fans.com/images/sofiafansly.webp',
+  sameAs: ['https://fansly.com']
 }
 
 const offerJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Offer',
-  name: 'Premium Blonde OnlyFans Content',
-  description: '70% OFF Diana\'s exclusive blonde OnlyFans content - Limited time offer',
+  name: 'Premium Sofi Fansly Content',
+  description: 'Join Sofi\'s exclusive Fansly content - Special access to my cute corner',
   price: '3.00',
   priceCurrency: 'USD',
   availability: 'https://schema.org/LimitedAvailability',
-  validFrom: '2025-07-24',
-  validThrough: '2025-07-25',
-  url: 'https://www.onlyfans-blonde.com'
+  validFrom: '2025-07-28',
+  validThrough: '2025-07-29',
+  url: 'https://www.sofi-fans.com'
 }
 
 export default function RootLayout({ children }) {
@@ -93,8 +93,8 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#3b82f6" />
-        <meta name="msapplication-TileColor" content="#3b82f6" />
+        <meta name="theme-color" content="#ec4899" />
+        <meta name="msapplication-TileColor" content="#ec4899" />
         
         {/* Classic Favicons */}
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -111,7 +111,7 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="Diana - Blonde OnlyFans" />
+        <meta name="apple-mobile-web-app-title" content="Sofi - Best Fansly Creator" />
       </head>
       <body className={inter.className}>
         <InstagramBypass />
