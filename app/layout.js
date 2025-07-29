@@ -8,8 +8,8 @@ import AgeConfirmationProvider from './components/AgeConfirmationProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Sofi Best Fansly Creator | Exclusive Content & Special Moments 💕',
-  description: 'Join Sofi, the best Fansly creator sharing cute moments, exclusive content & personal interactions. Experience my special corner where I open up just for you!',
+  title: 'Sofi Best Fansly Creator | Exclusive Content  💗',
+  description: 'Join Sofi, the best Fansly creator sharing exclusive content & cute moments. Experience my special corner made just for you!',
   manifest: '/manifest.json',
   metadataBase: new URL('https://www.sofi-fans.com'),
   alternates: {
