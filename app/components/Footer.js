@@ -28,13 +28,26 @@ const Footer = () => {
             />
             
             <div className="text-pink-100 text-sm">
-              <div className="flex items-center gap-2 justify-center">
-                <div className="flex items-center justify-center w-5 h-5 bg-gradient-to-r from-green-400 to-green-500 rounded-full shadow-sm">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 text-white" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
+              <div className="flex flex-col items-center gap-2 justify-center">
+                <div className="flex items-center gap-2 justify-center">
+                  <div className="flex items-center justify-center w-5 h-5 bg-gradient-to-r from-green-400 to-green-500 rounded-full shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 text-white" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <span>Verified Creator • 18+ Only</span>
                 </div>
-                <span>Verified Creator • 18+ Only</span>
+                
+                {/* Legal Information button - très discret */}
+                <button
+                  onClick={() => {
+                    const moreInfoButton = document.querySelector('.more-info-button');
+                    if (moreInfoButton) moreInfoButton.click();
+                  }}
+                  className="text-xs text-pink-200 hover:text-white transition-colors duration-200 opacity-70 hover:opacity-100"
+                >
+                  Legal Information
+                </button>
               </div>
             </div>
           </div>

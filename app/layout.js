@@ -3,6 +3,7 @@ import './globals.css'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import InstagramBypass from './components/InstagramBypass'
+import AgeConfirmationProvider from './components/AgeConfirmationProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -115,6 +116,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <InstagramBypass />
+        <AgeConfirmationProvider />
         <div className="flex flex-col min-h-screen">
           <Navbar />
           <main className="flex-grow relative pt-16">

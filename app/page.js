@@ -15,22 +15,17 @@ export default function Home() {
       <Hero />
 
       
-      {/* More Info Button - Shows/hides all SEO content */}
-      <div className="bg-gradient-to-b from-blue-50 to-white py-8">
-        <div className="container mx-auto">
-          <MoreInfoButton>
-            {/* All SEO content wrapped inside the MoreInfoButton component */}
-            <div className="seo-content-container">
-              {/* Additional SEO Content Sections */}
-              <AdditionalSEOContent />
-              <AdditionalSEOContent2 />
-              <AdditionalSEOContent3 />
-
-           
-
-            </div>
-          </MoreInfoButton>
-        </div>
+      {/* SEO content - Hidden by default but accessible via Legal Information button */}
+      <div className="hidden-seo-content">
+        <MoreInfoButton>
+          {/* All SEO content wrapped inside the MoreInfoButton component */}
+          <div className="seo-content-container">
+            {/* Additional SEO Content Sections */}
+            <AdditionalSEOContent />
+            <AdditionalSEOContent2 />
+            <AdditionalSEOContent3 />
+          </div>
+        </MoreInfoButton>
       </div>
 
       

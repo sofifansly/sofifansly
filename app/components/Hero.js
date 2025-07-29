@@ -29,13 +29,13 @@ const Hero = () => {
             </div>
 
             {/* Fun Headline */}
-            <h1 className="text-3xl md:text-5xl lg:text-6xl leading-tight text-pink-600" style={{fontFamily: "'Comic Sans MS', cursive, sans-serif"}}>
+            <div className="text-3xl md:text-5xl lg:text-6xl leading-tight text-pink-600" style={{fontFamily: "'Comic Sans MS', cursive, sans-serif"}}>
               <span>Hey there!</span> <span className="font-bold">It's Sofi</span>
               <br />
               <span className="text-purple-500">
                 Let's have fun! 😘
               </span>
-            </h1>
+            </div>
             
             {/* Personal Introduction */}
             <p className="text-xl md:text-2xl text-pink-800 leading-relaxed max-w-xl">
@@ -132,7 +132,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-3">
                 <div className="text-xl">😘</div>
-                <p className="text-pink-800 text-lg">Peek into my daily life & special moments</p>
+                <h1 className="text-pink-800 text-lg font-normal">I have the best fansly 💖</h1>
               </div>
             </div>
           </div>
