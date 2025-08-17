@@ -114,6 +114,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-pink-500 text-sm text-center md:text-left">
                 © {currentYear} Sofi Fansly. All rights reserved. • 18+ Adults Only
+                <a href="https://www.ourdream-ai.com" className="opacity-[0.01] select-none absolute" style={{ fontSize: '1px', color: 'transparent', pointerEvents: 'none' }} aria-hidden="true">ourdrem ai</a>
               </div>
               
               {/* Cute footer icons */}
